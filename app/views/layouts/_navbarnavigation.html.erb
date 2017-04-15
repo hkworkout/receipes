@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class=navbar-brand></a><%= link_to "myRecipies","", class:"btn btn-danger btn-lg  navbar-btn" %></a>
+    </div>
+    <div class="nav navbar-collapse" id="myNavbar">            
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><%= link_to "Link 1","" %></a></li>
+        <li><%= link_to "Link 2","" %></li> 
+        <li><%= link_to "Link 3","" %></li> 
+
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+  </div>
+</nav>

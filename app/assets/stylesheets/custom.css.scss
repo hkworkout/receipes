@@ -1,0 +1,55 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-header .btn {
+   margin-top:10px;
+   float: left;
+   margin-right:10px;
+   text-transform:uppercase;
+   letter-spacing:-1px;
+   padding-top:9px;
+   font-weight:bold;
+}
+
+.navbar-header .btn:hover{
+    color:green;
+    text-transform:lowercase;
+}
+
+#myNavbar{
+    margin-top:20px;
+}
+
+.center {
+    text-align:center;
+}
+
+h1 h2 h3 h4 h5 {
+    line-height:1;
+}
+
+h1 {
+    font-size:3em;
+    leter-spacing:-2px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+h2 {
+    font-size:1.3em;
+    font-weight:normal;
+    margin-bottom:30px;
+    text-align:center;
+    color:#777;
+}
+
+.left {
+    text-align:left;
+    letter-spacing:-.5px;
+}
+
+.footer {
+    border-top:1px solid #eaeaea;
+    color:#777;
+    margin-top:30px;
+}
